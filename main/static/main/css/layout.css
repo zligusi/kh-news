@@ -30,11 +30,25 @@ aside ul li {
     display: block;
     margin-top: 20px;
     font-size: 15px;
-    transition: all .6s ease;
+    transition: transform .6s ease;
 }
 
 aside ul li:hover , aside ul a :hover{
     color: #eb5959;
     text-decoration: none ;
     transform: scale(1.05);
+}
+
+.features{
+    float: center;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 200% ;
+}
+
+.features h1{font-size: 50px;}
+.features p {
+    max-width: 400px;
+    margin: 20px auto;
 }
