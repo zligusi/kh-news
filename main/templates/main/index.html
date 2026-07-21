@@ -1,11 +1,20 @@
 {% extends "main/layout.html" %}
+{%  block title  %}{{title}}{% endblock  %}
 {% block content %}
     <h1>Kharkiv News</h1>
     <div class="features">
         <h1>home pege </h1>
         <p>shdjfihgsdofjfdiosjgdiogjdfoigjreiojtgioerjgoiertje</p>
         <p>fjhgifdjhioufjhgoifjhiofgjhioufjrwioqwopeopwqpowkdop1293429354</p>
-        <button class="btn btn-warning">на страницу про нас</button>
+        <button class="btn btn-warning">на страницу про нас</button><br><br>
+
+        {% for el in values %}
+            <p>{{el}}</p>
+        {% endfor %}
+
+        {% for el in oleg %}
+            <p>{{el}}</p>
+        {% endfor %}
     </div>
     
 {% endblock %}
