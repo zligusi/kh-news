@@ -8,3 +8,7 @@ class Artiles(models.Model):
     
     def __str__ (self):
         return self.title
+    
+    class Meta: 
+        verbose_name = 'New'
+        verbose_name_plural = 'News'
