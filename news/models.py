@@ -7,7 +7,7 @@ class Artiles(models.Model):
     data = models.DateTimeField('Data and time')
     
     def __str__ (self):
-        return self.title
+        return f'News: {self.title}'
     
     class Meta: 
         verbose_name = 'New'

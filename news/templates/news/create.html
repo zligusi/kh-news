@@ -1,0 +1,17 @@
+{% extends "main/layout.html" %}
+{%block title   %}{{ title}}{% endblock  %}
+{%block content%}
+
+
+    <div class="features">
+       <h1> article submission form <h1>
+        <form method='post' >
+            <input tupe='text' placeholder='Article title' class"form-control"><br>
+            <input tupe='text' placeholder='Article preview' class"form-control"><br>
+            <textarea class='form-control' placeholder='Article text'></textarea><br>
+            <input tupe='data'  class"form-control"><br> 
+            <input tupe='time'  class"form-control"><br>
+            <button class='btn btn-success' type='submit'>Creatre  an article</button>
+        </form>
+    
+{%endblock%}
